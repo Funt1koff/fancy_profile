@@ -32,4 +32,4 @@ jobs:
           git config user.email "sfuntikoff@gmail.com"  # Укажите ваш email
           git add number.txt
           git commit -m "Update number automatically"
-          git push https://${{ secrets.GH_TOKEN }}@github.com/Funt1koff/fancy_job.git HEAD:main
+          git push https://${{ secrets.GH_TOKEN }}@github.com/Funt1koff/fancy_profile.git HEAD:main
