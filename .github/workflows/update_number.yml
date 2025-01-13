@@ -28,8 +28,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config user.name "Sergey Funtikov"  # Укажите ваше имя
-          git config user.email "sfuntikoff@gmail.com"  # Укажите ваш email
+          git config user.name "Sergey Funtikov"  
+          git config user.email "sfuntikoff@gmail.com"  
           git add number.txt
           git commit -m "Update number automatically"
           git push https://${{ secrets.GH_TOKEN }}@github.com/Funt1koff/fancy_profile.git HEAD:main
